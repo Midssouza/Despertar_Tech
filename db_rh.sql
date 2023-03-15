@@ -31,4 +31,4 @@ SELECT * FROM tb_colaboradores WHERE salario > 2000.00;
 SELECT * FROM tb_colaboradores WHERE salario < 2000.00;
 
 /*Atualizar os dados de um registro da tabela tb_colaboradores*/
-UPDATE tb_colaboradores SET salario = 1900.00 WHERE id = 3;PRIMARY
+UPDATE tb_colaboradores SET salario = 1900.00 WHERE id = 3;
