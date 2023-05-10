@@ -20,5 +20,14 @@ INSERT INTO tb_estudantes (nome, data_nascimento, turma, nota) VALUES ("Branco M
 INSERT INTO tb_estudantes (nome, data_nascimento, turma, nota) VALUES ("Nando Reis", "1963-01-12", 3, 8.00);
 INSERT INTO tb_estudantes (nome, data_nascimento, turma, nota) VALUES ("Nando Reis", "1963-01-12", 3, 8.00);
 
+CREATE TABLE tb_professores(
+	id bigint auto_increment,
+    nome varchar(200),
+    materia varchar(200),
+    primary key (id)
+    );
+    
+    INSERT INTO tb_professores (nome, materia ) VALUES ("Paulo ", "matematica" );
+
 /*Selecionar todes os estudantes cuja nota seja maior do que 7.00*/
 SELECT * FROM tb_estudantes WHERE nota < 7.00;
